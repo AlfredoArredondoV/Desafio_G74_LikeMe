@@ -26,10 +26,7 @@ router.post("/posts", async (req, res) => {
 
 
 //likes 
-router.post("/post/:id", async (req, res) => {
-
-});
-
+router.put("/post:id", addLike);
 
 //ruta generica
 router.get('*', (req, res) => {
